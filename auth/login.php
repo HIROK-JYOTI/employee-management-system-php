@@ -14,6 +14,18 @@ require_once "../includes/header.php";
                 <div class="card-header bg-primary text-white text-center">
 
                     <h4><?= APP_NAME ?></h4>
+                    <?php
+                    session_start();
+
+                    if (isset($_SESSION['error'])) {
+                    ?>
+                        <div class="alert alert-danger">
+                            <?= $_SESSION['error']; ?>
+                        </div>
+                    <?php
+                        unset($_SESSION['error']);
+                    }
+                    ?>
 
                 </div>
 

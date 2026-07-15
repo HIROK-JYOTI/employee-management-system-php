@@ -16,7 +16,7 @@ require_once "includes/header.php";
             <hr>
 
             <p class="text-center">
-                Welcome Buddy 😊
+                Welcome To The Employee Management System 😊
             </p>
 
             <div class="text-center">
