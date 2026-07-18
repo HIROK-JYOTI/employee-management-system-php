@@ -1,1 +1,1 @@
-Here we are going to developer CRUD using php
+Here we are going to developed CRUD using php
